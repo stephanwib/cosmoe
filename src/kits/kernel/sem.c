@@ -55,6 +55,7 @@ in the administrative group (ADMIN_AREA_SEM).
 #ifndef __USE_GNU
 #define __USE_GNU
 #endif /* __USE_GNU */
+#define _KERNEL /* NetBSD semaphore defines */
 #include <sys/sem.h>
 
 #define TRACE_SEM 0
